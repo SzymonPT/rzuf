@@ -77,72 +77,80 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek2"
+        <ImageButton
+            android:id="@+id/bloczek2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek3"
+        <ImageButton
+            android:id="@+id/bloczek3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek4"
+        <ImageButton
+            android:id="@+id/bloczek4"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek5"
+        <ImageButton
+            android:id="@+id/bloczek5"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek6"
+        <ImageButton
+            android:id="@+id/bloczek6"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek7"
+        <ImageButton
+            android:id="@+id/bloczek7"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek8"
+        <ImageButton
+            android:id="@+id/bloczek8"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
-        <ImageButton android:id="@+id/bloczek9"
+        <ImageButton
+            android:id="@+id/bloczek9"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            android:scaleType="centerCrop"
-            android:background="@drawable/pobrane"/>
+            android:scaleType="fitCenter"
+            android:background="?attr/selectableItemBackground"/>
 
     </GridLayout>
 
