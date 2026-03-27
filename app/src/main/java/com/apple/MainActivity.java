@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
                     nowy_rzuf++;
 
-                    if (nowy_rzuf == 3) {
+                    if (nowy_rzuf == 2) {
                         arrayList.get(rzuf.bloczek_zielony)
                                 .setTag("");
                         arrayList.get(rzuf.bloczek_zielony)
@@ -127,6 +127,33 @@ public class MainActivity extends AppCompatActivity {
             };
 
             rzuf.countDownTimer.start();
+        }
+    }
+
+    public void losuj() {
+        Random r = new Random();
+
+        rzuf.bloczek_czerwony = r.nextInt(9);
+
+        do {
+            rzuf.bloczek_zielony = r.nextInt(9);
+        } while (rzuf.bloczek_zielony == rzuf.bloczek_czerwony);
+
+        arrayList.get(rzuf.bloczek_czerwony)
+                .setImageResource(R.drawable.pobrane);
+        arrayList.get(rzuf.bloczek_czerwony)
+                .setTag("czerwone");
+
+        arrayList.get(rzuf.bloczek_zielony)
+                .setImageResource(R.drawable.pobrane2);
+        arrayList.get(rzuf.bloczek_zielony)
+                .setTag("zielone");
+    }
+
+    public void wyczysc() {
+        for (ImageButton box : arrayList) {
+            box.setImageResource(R.drawable.bloczek_nic);
+            box.setTag("");
         }
     }
 }
